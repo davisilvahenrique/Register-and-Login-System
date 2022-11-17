@@ -90,7 +90,7 @@ function registrar() {
         Erro.innerHTML = ''
 
 
-        window.location.href = 'http://localhost:63342/PhpstormProjects/login/login/login.html?_ijt=q00o59homm1u6vo06ga895rucb&_ij_reload=RELOAD_ON_SAVE'
+        window.location.href = 'http://localhost:63342/PhpstormProjects/Register-and-Login-System/login/login.html?_ijt=q00o59homm1u6vo06ga895rucb&_ij_reload=RELOAD_ON_SAVE'
 
 
     } else {

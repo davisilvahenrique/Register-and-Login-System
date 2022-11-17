@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="registrar.css">
+  <title>Registro</title>
+
+</head>
+<body>
+
+<div class="main-register">
+
+  <div class="left-register">
+    <img src="../imagems/carro.svg" class="left-register-image" alt="imagem de carro">
+  </div>
+
+  <div class="right-register">
+
+    <div class="card-register">
+
+      <div id="Sucesso"></div>
+      <div id="Erro"></div>
+
+      <img src="../imagems/capacete.svg" class="right-register-image" alt="imagem de capacete">
+
+      <div class="textfield">
+        <label id="labelNome" for="nome">Nome</label>
+        <input type="text" id="nome" placeholder="Nome" required>
+      </div>
+
+      <div class="textfield">
+        <label id="labelEmail" for="email">Email</label>
+        <input type="email" id="email" placeholder="Email" required>
+      </div>
+
+      <div class="textfield">
+        <label id="labelUser" for="user">Usuário</label>
+        <input type="text" id="user" placeholder="Usuário" required>
+      </div>
+
+      <div class="textfield">
+        <label id="labelSenha" for="senha">Senha</label>
+        <input type="password" id="senha" placeholder="Senha" required>
+      </div>
+
+      <button class="btn-register" onclick='registrar()'>registrar</button>
+
+      <p class="login" >Já tem uma conta? Faça
+        <a href="http://localhost:63342/PhpstormProjects/login/login/login.html?_ijt=q00o59homm1u6vo06ga895rucb&_ij_reload=RELOAD_ON_SAVE">Login</a>
+      </p>
+    </div>
+  </div>
+</div>
+<script type="text/javascript" src="registrar.js"></script>
+</body>
+</html>

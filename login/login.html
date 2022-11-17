@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="login.css">
+    <title>Login</title>
+
+</head>
+<body>
+
+  <div class="main-login">
+
+    <div class="left-login">
+      <img src="../imagems/carro.svg" class="left-login-image" alt="imagem de carro">
+    </div>
+
+    <div class="right-login">
+
+      <div class="card-login">
+
+        <div id="Erro"></div>
+
+        <img src="../imagems/capacete.svg" class="right-login-image" alt="imagem de capacete">
+
+        <div class="textfield">
+          <label id="userLabel" for="usuario">Usuário</label>
+          <input type="text" name="usuario" id="usuario" placeholder="Usuário">
+        </div>
+
+        <div class="textfield">
+          <label id="senhaLabel" for="senha">Senha</label>
+          <input type="password" name="senha" id="senha" placeholder="Senha">
+        </div>
+
+        <button class="btn-login" onclick="enviar()" >Login</button>
+
+        <p class="registro" >Não tem uma conta?
+          <a href="http://localhost:63342/PhpstormProjects/login/registrar/registrar.html?_ijt=q00o59homm1u6vo06ga895rucb&_ij_reload=RELOAD_ON_SAVE">Registre-se</a>
+        </p>
+
+      </div>
+    </div>
+  </div>
+<script type="text/javascript" src="login.js"></script>
+</body>
+</html>

@@ -122,6 +122,13 @@ body * {
     display: none;
 }
 
+.eye-button {
+    position: absolute;
+    top: 453px;
+    right: 210px;
+    cursor: pointer;
+}
+
 @media only screen and (max-width: 950px) {
     .main-login{
         flex-direction: column;
@@ -139,5 +146,29 @@ body * {
 
     .card-login {
         width: 50%;
+    }
+
+    .eye-button {
+        position: absolute;
+        top: 312px;
+        right: 265px;
+        cursor: pointer;
+    }
+}
+
+@media only screen and (max-width: 650px) {
+    .card-login {
+        width: 80%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .eye-button {
+        position: absolute;
+        top: 312px;
+        right: 90px;
+        cursor: pointer;
     }
 }

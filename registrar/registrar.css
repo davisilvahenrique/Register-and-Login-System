@@ -132,6 +132,13 @@ body * {
     display: none;
 }
 
+.eye-button {
+    position: absolute;
+    top: 552px;
+    right: 210px;
+    cursor: pointer;
+}
+
 @media only screen and (max-width: 950px) {
     .main-register{
         flex-direction: column;
@@ -149,5 +156,29 @@ body * {
 
     .card-register {
         width: 50%;
+    }
+
+    .eye-button {
+        position: absolute;
+        top: 512px;
+        right: 265px;
+        cursor: pointer;
+    }
+}
+
+@media only screen and (max-width: 650px) {
+    .card-register {
+        width: 88%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .eye-button {
+        position: absolute;
+        top: 512px;
+        right: 80px;
+        cursor: pointer;
     }
 }

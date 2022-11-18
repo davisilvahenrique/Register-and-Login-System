@@ -14,6 +14,17 @@ let userValid = {
     senha: '',
 }
 
+let btn = document.getElementById('eye-button')
+
+btn.addEventListener('click', ()=> {
+
+    if(senha.getAttribute('type') == 'password'){
+        senha.setAttribute('type', 'text')
+    } else {
+        senha.setAttribute('type', 'password')
+    }
+})
+
 function enviar() {
 
     listaUser = JSON.parse(localStorage.getItem('listaUser'))

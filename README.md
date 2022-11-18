@@ -1,5 +1,6 @@
 ## Descrição e Motivo do projeto:
 - Sistema de Login e Registro feito para treino.
+- Site responsivo! (Funciona em desktop e celular)
 
 ### Front-end
 - HTML5

@@ -122,13 +122,6 @@ body * {
     display: none;
 }
 
-.eye-button {
-    position: absolute;
-    top: 453px;
-    right: 210px;
-    cursor: pointer;
-}
-
 @media only screen and (max-width: 950px) {
     .main-login{
         flex-direction: column;
@@ -148,12 +141,6 @@ body * {
         width: 50%;
     }
 
-    .eye-button {
-        position: absolute;
-        top: 312px;
-        right: 265px;
-        cursor: pointer;
-    }
 }
 
 @media only screen and (max-width: 650px) {
@@ -165,10 +152,4 @@ body * {
         flex-direction: column;
     }
 
-    .eye-button {
-        position: absolute;
-        top: 312px;
-        right: 90px;
-        cursor: pointer;
-    }
 }

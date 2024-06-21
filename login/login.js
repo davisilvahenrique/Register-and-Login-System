@@ -14,17 +14,6 @@ let userValid = {
     senha: '',
 }
 
-let btn = document.getElementById('eye-button')
-
-btn.addEventListener('click', ()=> {
-
-    if(senha.getAttribute('type') == 'password'){
-        senha.setAttribute('type', 'text')
-    } else {
-        senha.setAttribute('type', 'password')
-    }
-})
-
 function enviar() {
 
     listaUser = JSON.parse(localStorage.getItem('listaUser'))
@@ -42,7 +31,7 @@ function enviar() {
     })
 
     if(usuario.value == userValid.user && senha.value == userValid.senha){
-        window.location.href = 'http://localhost:63342/PhpstormProjects/Register-and-Login-System/logado/logado.html?_ijt=9g6o6mo6j5pcbgt2e2k1rs78ub&_ij_reload=RELOAD_ON_SAVE'
+        window.location.href = '../logado/logado.html'
         let token = Math.random().toString(16).substr(2) + Math.random().toString(16).substr(2)
         localStorage.setItem('token', token)
         localStorage.setItem(('userLogado'), JSON.stringify(userValid))
